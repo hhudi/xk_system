@@ -1,0 +1,101 @@
+
+body{
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	position: relative;
+	background: url(../images/bg1.jpg) no-repeat;
+}
+.tableContent{
+	width: 60%;
+	position: absolute;
+	display: block;
+}
+
+.popUp{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	left: 250px;
+	top: 200px;
+	border: 2px solid #ccc;
+	background-color: #ccc;
+	border-radius: 5px;
+	display: none;
+}
+.add{
+	position: absolute;
+	width: 300px;
+	left: 250px;
+	top: 200px;
+	border: 2px solid #ccc;
+	background-color: rgb(150,150,150);
+	border-radius: 5px;
+	padding-left: 5px;
+	display: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+ul,body{
+	margin:0;
+	padding: 0;
+}
+ul>li{
+	list-style: none;
+}
+header{
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	background: skyblue;
+}
+header h2{
+	font-size: 26px;
+	color: rgb(95,58,169);
+	float:left;
+}
+header .userinfo{
+	float: right;
+}
+header .userinfo>li{
+	float:left;
+	margin:5px 10px;
+}
+.leftnav{
+	float: left;
+	width:200px;
+	border-right:1px solid #ccc;
+	background-color: skyblue;
+	min-height: 400px;
+	text-align: center;
+}
+.leftnav li{
+	
+	margin: 30px auto;
+	font-size: 20px;
+	font-family: 仿宋;
+	font-weight: 700;
+}
+.leftnav li:first-child{
+	margin-top: 70px;
+}
+
+.content{
+	margin-left: 210px;
+}
+.content h3{
+	font-size: 20px;
+	font-family: 宋体;
+	color: rgb(124,89,198);
+	margin: 10px;
+}
+.content table{
+	border-collapse: collapse;
+	width: 90%;
+}
+.content table td,.content table th{
+	border:1px solid #ccc;
+	text-align: center;
+}
+.content tr:nth-child(even){
+	background-color: lightblue;
+}
